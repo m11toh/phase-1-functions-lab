@@ -20,7 +20,7 @@ describe('index.js', function() {
       expect(distanceFromHqInFeet(43)).to.equal(264);
     });
 
-    it('returns a distance in feet', function() {
+    it('returns a distance in feet', function(){
       expect(distanceFromHqInFeet(50)).to.equal(2112);
     });
 
